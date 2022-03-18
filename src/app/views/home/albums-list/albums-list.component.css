@@ -1,0 +1,23 @@
+.div-custom {
+  padding: 2%;
+}
+
+.container-custom {
+  margin: 0.5%;
+}
+
+.mat-card-post-custom {
+  border-radius: 6px;
+  padding: 12px 0 0 0;
+  padding: 12px;
+  margin: 6px;
+}
+
+.mat-card-title-custom {
+  padding: 12px 0;
+  border-bottom: 1px solid #cccccc;
+  color: #3f51b5;
+}
+.mat-card-title-custom::first-letter {
+  text-transform: uppercase;
+}
