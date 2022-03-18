@@ -1,0 +1,30 @@
+<h1 mat-dialog-title>User Details</h1>
+<div mat-dialog-content class="mat-dialog-content-custom">
+  <div class="div-content-user-custom">
+    <mat-icon class="user-mat-icon-custom">vpn_key</mat-icon>id:
+    <strong class="user-item-detail-custom">{{ userFinded?.id }}</strong>
+  </div>
+  <div class="div-content-user-custom">
+    <mat-icon class="user-mat-icon-custom">developer_board</mat-icon> User Name:
+    <strong class="user-item-detail-custom">{{ userFinded?.username }}</strong>
+  </div>
+  <div class="div-content-user-custom">
+    <mat-icon class="user-mat-icon-custom">person</mat-icon>Name:
+    <strong class="user-item-detail-custom">{{ userFinded?.name }}</strong>
+  </div>
+  <div class="div-content-user-custom">
+    <mat-icon class="user-mat-icon-custom">contact_mail</mat-icon>Email:
+    <strong class="user-item-detail-custom">{{ userFinded?.email }}</strong>
+  </div>
+  <div class="div-content-user-custom">
+    <mat-icon class="user-mat-icon-custom">phone</mat-icon>Phone:
+    <strong class="user-item-detail-custom">{{ userFinded?.phone }}</strong>
+  </div>
+  <div class="div-content-user-custom">
+    <mat-icon class="user-mat-icon-custom">language</mat-icon>Website:
+    <strong class="user-item-detail-custom">{{ userFinded?.website }}</strong>
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Close</button>
+</div>

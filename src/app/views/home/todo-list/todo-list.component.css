@@ -30,7 +30,7 @@
 }
 
 .mat-card-title-custom::first-letter {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .mat-icon-completed-custom {

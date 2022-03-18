@@ -2,6 +2,11 @@
   padding: 2%;
 }
 
+.mat-icon-custom {
+  margin-right: 12px;
+  color: #3f51b5;
+}
+
 .container-custom {
   margin: 0.5%;
 }

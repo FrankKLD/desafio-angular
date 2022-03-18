@@ -23,9 +23,17 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { AlbumsListComponent } from './views/home/albums-list/albums-list.component';
 import { TodoListComponent } from './views/home/todo-list/todo-list.component';
+import { DialogElementsDialogComponent } from './views/home/posts-list/dialog-elements-dialog/dialog-elements-dialog.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, PostsListComponent, AlbumsListComponent, TodoListComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    PostsListComponent,
+    AlbumsListComponent,
+    TodoListComponent,
+    DialogElementsDialogComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
