@@ -14,10 +14,45 @@
 }
 
 .mat-card-title-custom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 12px 0;
   border-bottom: 1px solid #cccccc;
   color: #3f51b5;
 }
+
+.div-title-custom {
+  display: flex;
+  width: calc(100% - 13px);
+}
+
 .mat-card-title-custom::first-letter {
   text-transform: uppercase;
+}
+
+.mat-icon-completed-custom {
+  margin-right: 12px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #48c9b0;
+  color: #ffffff;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.mat-icon-not-completed-custom {
+  margin-right: 12px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #aeb6bf;
+  color: #5d6d7e;
+  padding: 2px;
+  border-radius: 50%;
 }

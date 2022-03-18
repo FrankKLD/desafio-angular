@@ -7,8 +7,19 @@
       fxFlex.lt-sm="100%"
     >
       <mat-card-title class="mat-card-title-custom">
-        <mat-icon>keyboard_arrow_right</mat-icon>
-        {{ item.title }}
+        <div class="div-title-custom">{{ item.title }}</div>
+        <mat-icon
+          class="mat-icon-completed-custom"
+          *ngIf="item.completed"
+          title="To Do Completed"
+          >check</mat-icon
+        >
+        <mat-icon
+          class="mat-icon-not-completed-custom"
+          *ngIf="!item.completed"
+          title="To Do Not Completed"
+          >all_inclusive</mat-icon
+        >
       </mat-card-title>
 
       <mat-card-content>
